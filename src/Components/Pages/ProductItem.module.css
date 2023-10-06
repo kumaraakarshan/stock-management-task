@@ -1,0 +1,32 @@
+.ProductItem {
+    width: 70%;
+    height: 25rem;
+    margin: 1rem auto;
+    overflow-y: scroll;
+  }
+  
+  .ProductItem h2 {
+    text-align: left;
+    margin-right: 3rem;
+  }
+  
+  .ProductItem header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .ProductItem li {
+    list-style: none;
+  }
+  
+  .ProductItem div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ProductItem button:hover,
+  button.hover {
+    background-color: rgb(171, 102, 11);
+  }
